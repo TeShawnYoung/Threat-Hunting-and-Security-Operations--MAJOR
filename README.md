@@ -8,7 +8,7 @@ Each scenario includes the hunting hypothesis, the KQL queries used to search fo
 
 ---
 
-## Core Threat Hunting Scenarios
+## Core Threat Hunting 
 
 ### 1. 🕵️ Threat Hunt Report: Unauthorized TOR Usage <a href="https://github.com/TeShawnYoung/threat-hunting-scenario-tor-/tree/main"><img src="https://img.shields.io/badge/--555555?style=flat&logo=github&logoColor=white" height="20"/></a>
 
