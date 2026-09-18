@@ -8,7 +8,7 @@ Each scenario includes the hunting hypothesis, the KQL queries used to search fo
 
 ---
 
-## Core Threat Hunting 
+## Core Threat Hunting Scenarios
 
 ### 1. 🕵️ Threat Hunt Report: Unauthorized TOR Usage <a href="https://github.com/TeShawnYoung/threat-hunting-scenario-tor-/tree/main"><img src="https://img.shields.io/badge/--555555?style=flat&logo=github&logoColor=white" height="20"/></a>
 
@@ -33,6 +33,57 @@ Each scenario includes the hunting hypothesis, the KQL queries used to search fo
 
 - 📄 [Threat Hunt Report](https://github.com/TeShawnYoung/threat-hunting-scenario-tor-/blob/main/README.md)
 - 📄 [Scenario Creation](https://github.com/TeShawnYoung/threat-hunting-scenario-tor-/blob/main/threat-hunting-scenario-tor-event-creation.md)
+
+---
+
+### 2. 📤 Threat Hunt Report: Suspected Data Exfiltration from PIP'd Employee <a href="https://github.com/TeShawnYoung/Suspected-Data-Exfiltration-from-PIPd-Employee"><img src="https://img.shields.io/badge/--555555?style=flat&logo=github&logoColor=white" height="20"/></a>
+
+**Focus:** Investigating a disgruntled employee's device, following a performance improvement plan (PIP), for signs of data staging and potential exfiltration of proprietary information.
+
+**Key Capabilities:**
+
+- File event analysis to detect archive (`.zip`) creation and movement patterns
+- Process event analysis to uncover silent installation and use of archive utilities via PowerShell
+- Network event analysis to check for evidence of data leaving the host
+- MITRE ATT&CK mapping of staging, execution, and potential exfiltration behavior
+
+**Resources:**
+
+- 📄 [Threat Hunt Report](https://github.com/TeShawnYoung/Suspected-Data-Exfiltration-from-PIPd-Employee/blob/main/README.md)
+
+---
+
+### 3. 🌐 Threat Hunt Report: Devices Accidentally Exposed to the Internet <a href="https://github.com/TeShawnYoung/Devices-Accidentally-Exposed-to-the-Internet"><img src="https://img.shields.io/badge/--555555?style=flat&logo=github&logoColor=white" height="20"/></a>
+
+**Focus:** Investigating VMs in a shared services cluster that were mistakenly exposed to the public internet, checking for brute-force login attempts and potential account compromise.
+
+**Key Capabilities:**
+
+- Internet-exposure verification using device inventory telemetry
+- Logon event analysis to identify brute-force patterns from external IP addresses
+- Cross-referencing failed and successful logons to confirm whether any brute-force attempt succeeded
+- MITRE ATT&CK mapping of external access and credential access techniques
+
+**Resources:**
+
+- 📄 [Threat Hunt Report](https://github.com/TeShawnYoung/Devices-Accidentally-Exposed-to-the-Internet/blob/main/README.md)
+
+---
+
+### 4. 🐌 Threat Hunt Report: Sudden Network Slowdowns <a href="https://github.com/TeShawnYoung/Sudden-Network-Slowdowns"><img src="https://img.shields.io/badge/--555555?style=flat&logo=github&logoColor=white" height="20"/></a>
+
+**Focus:** Investigating internal network performance degradation to determine whether an internal host was scanning or otherwise abusing the local network.
+
+**Key Capabilities:**
+
+- Network event analysis to identify hosts generating excessive failed connections
+- Chronological connection analysis to detect sequential port-scanning patterns
+- Process event analysis to identify the scanning script and its execution context
+- MITRE ATT&CK mapping of reconnaissance, discovery, and execution techniques
+
+**Resources:**
+
+- 📄 [Threat Hunt Report](https://github.com/TeShawnYoung/Sudden-Network-Slowdowns/blob/main/README.md)
 
 ---
 
