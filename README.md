@@ -32,6 +32,9 @@ Each scenario includes the hunting hypothesis, the KQL queries used to search fo
 **Resources:**
 
 - 📄 [Threat Hunt Report](https://github.com/TeShawnYoung/threat-hunting-scenario-tor-/blob/main/README.md)
+- 🔎 [KQL Queries & Steps Taken](https://github.com/TeShawnYoung/threat-hunting-scenario-tor-/blob/main/README.md#steps-taken)
+- 🗓️ [Chronological Event Timeline](https://github.com/TeShawnYoung/threat-hunting-scenario-tor-/blob/main/README.md#chronological-event-timeline)
+- 🛠️ [Response Taken](https://github.com/TeShawnYoung/threat-hunting-scenario-tor-/blob/main/README.md#response-taken)
 - 📄 [Scenario Creation](https://github.com/TeShawnYoung/threat-hunting-scenario-tor-/blob/main/threat-hunting-scenario-tor-event-creation.md)
 
 ---
@@ -50,6 +53,10 @@ Each scenario includes the hunting hypothesis, the KQL queries used to search fo
 **Resources:**
 
 - 📄 [Threat Hunt Report](https://github.com/TeShawnYoung/Suspected-Data-Exfiltration-from-PIPd-Employee/blob/main/README.md)
+- 🔎 [KQL Queries & Steps Taken](https://github.com/TeShawnYoung/Suspected-Data-Exfiltration-from-PIPd-Employee/blob/main/README.md#steps-taken)
+- 🗓️ [Timeline Summary & Findings](https://github.com/TeShawnYoung/Suspected-Data-Exfiltration-from-PIPd-Employee/blob/main/README.md#timeline-summary-and-findings)
+- 🎯 [MITRE ATT&CK Mapping](https://github.com/TeShawnYoung/Suspected-Data-Exfiltration-from-PIPd-Employee/blob/main/README.md#mitre-attck-ttp-alignment)
+- 🛠️ [Response Taken](https://github.com/TeShawnYoung/Suspected-Data-Exfiltration-from-PIPd-Employee/blob/main/README.md#response-taken)
 
 ---
 
@@ -67,6 +74,10 @@ Each scenario includes the hunting hypothesis, the KQL queries used to search fo
 **Resources:**
 
 - 📄 [Threat Hunt Report](https://github.com/TeShawnYoung/Devices-Accidentally-Exposed-to-the-Internet/blob/main/README.md)
+- 🔎 [KQL Queries & Steps Taken](https://github.com/TeShawnYoung/Devices-Accidentally-Exposed-to-the-Internet/blob/main/README.md#steps-taken)
+- 🗓️ [Timeline Summary & Findings](https://github.com/TeShawnYoung/Devices-Accidentally-Exposed-to-the-Internet/blob/main/README.md#timeline-summary-and-findings)
+- 🎯 [MITRE ATT&CK Mapping](https://github.com/TeShawnYoung/Devices-Accidentally-Exposed-to-the-Internet/blob/main/README.md#mitre-attck-ttp-alignment)
+- 🛠️ [Response Taken](https://github.com/TeShawnYoung/Devices-Accidentally-Exposed-to-the-Internet/blob/main/README.md#response-taken)
 
 ---
 
@@ -84,6 +95,10 @@ Each scenario includes the hunting hypothesis, the KQL queries used to search fo
 **Resources:**
 
 - 📄 [Threat Hunt Report](https://github.com/TeShawnYoung/Sudden-Network-Slowdowns/blob/main/README.md)
+- 🔎 [KQL Queries & Steps Taken](https://github.com/TeShawnYoung/Sudden-Network-Slowdowns/blob/main/README.md#steps-taken)
+- 🗓️ [Timeline Summary & Findings](https://github.com/TeShawnYoung/Sudden-Network-Slowdowns/blob/main/README.md#timeline-summary-and-findings)
+- 🎯 [MITRE ATT&CK Mapping](https://github.com/TeShawnYoung/Sudden-Network-Slowdowns/blob/main/README.md#mitre-attck-ttp-alignment)
+- 🛠️ [Response Taken](https://github.com/TeShawnYoung/Sudden-Network-Slowdowns/blob/main/README.md#response-taken)
 
 ---
 
